@@ -1,25 +1,36 @@
 import React from 'react';
 
 function Profile() {
+
+  const addElfsightScript = () => {
+    const script = document.createElement('script');
+    script.src = "https://static.elfsight.com/platform/platform.js";
+    script.setAttribute('data-use-service-core', '');
+    script.defer = true;
+    document.body.appendChild(script);
+  };
+
+  addElfsightScript();
+
   return (
     <section id="profile">
-      <div class="section__pic-container profile-pic-container">
+      <div className="section__pic-container profile-pic-container">
           <img src="./assets/landyn-image4.jpg" alt="Landyn Moreno profile picture"/>
       </div>
 
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Landyn Moreno</h1>
-        <p class="section__text__p2">Software Engineer</p>
-        <div class="btn-container">
+      <div className="section__text">
+        <p className="section__text__p1">Hello, I'm</p>
+        <h1 className="title">Landyn Moreno</h1>
+        <p className="section__text__p2">Software Engineer</p>
+        <div className="btn-container">
             <button 
-              class="btn btn-color-2"
+              className="btn btn-color-2"
               onClick="window.open('./assets/Landyn_Moreno_Resume_2024.pdf')"
             >
               Download CV
             </button>
             <button 
-              class="btn btn-color-1"
+              className="btn btn-color-1"
               onClick="location.href='./#contact'"
             >
               Contact Info
@@ -29,15 +40,18 @@ function Profile() {
           <img
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
-            class="icon"
+            className="icon"
             onclick="location.href='https://www.linkedin.com/in/landyn-moreno/'">
           </img>
           <img
             src="./assets/github.png"
             alt="My Github profile"
-            class="icon"
+            className="icon"
             onclick="location.href='https://github.com/LandynMoreno'">
           </img>
+        </div>
+        <div className="visitor-counter">
+          <div className="elfsight-app-1030b1a8-ef30-4bcb-acbf-eefe6073c648" data-elfsight-app-lazy></div>
         </div>
       </div>
     </section>

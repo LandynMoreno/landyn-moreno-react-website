@@ -39,6 +39,12 @@ a:hover {
     text-decoration-color: rgb(181, 181, 181);
 }
 
+/* PROFILE */
+.visitor-counter {
+    display: block;
+    margin-top: 20px;
+}
+
 /* DESKTOP NAV */
 
 nav, .nav-links {
@@ -340,6 +346,14 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    /* max-width: calc(50% - 10px); */
+}
+
+.centered-container {
+    width: 100%; /* Take the full width */
+    margin: 1rem auto !important; /* Add some vertical margin and center horizontally */
+    display: block !important; /* Override flex display */
+    text-align: center; 
 }
 
 .section-container {
@@ -366,7 +380,6 @@ section {
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
-
 }
 
 .experience-details-container {
@@ -405,17 +418,48 @@ article .icon {
 .color-container {
     border-color: rgb (163, 163, 163);
     background: rgb(250, 250, 250);
+    height: fit-content;
+}
+
+.centered-projects-container {
+    width: 100%; /* Take the full width */
+    margin-top: 1rem;
+    display: flex; /* Override flex display */
+    text-align: center; /* Center the content */
+}
+
+.imaged-projects {
+    margin-inline: 1rem;
 }
 
 .project-img {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+    max-width: 100%; /* Ensures the image is not wider than the container */
+    max-height: 25rem; /* Adjust this value based on your preference */
+    object-fit: cover; /* Adjusts the image's display to cover the area, can be changed to 'contain' if you want to see the whole image */
 }
 
 .project-title {
     margin: 1rem;
     color: black;
+}
+
+.project-role {
+    margin: 1rem;
+    color: rgb(85, 85, 85);
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.project-description {
+    margin: 1rem;
+    color: black;
+    font-weight: 200;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 .project-btn {

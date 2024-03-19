@@ -5,9 +5,9 @@ function NavBar() {
   return (
     <div>
       <nav id="desktop-nav">
-        <div class="logo">Landyn Moreno</div>
+        <div className="logo">Landyn Moreno</div>
         <div>
-            <ul class="nav-links">
+            <ul className="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -16,14 +16,14 @@ function NavBar() {
         </div>
       </nav>
       <nav id="hamburger-nav">
-          <div class="logo">Landyn Moreno</div>
-          <div class="hamburger-menu">
-              <div class="hamburger-icon" onclick="toggleMenu()">
+          <div className="logo">Landyn Moreno</div>
+          <div className="hamburger-menu">
+              <div className="hamburger-icon" onclick="toggleMenu()">
                   <span></span>
                   <span></span>
                   <span></span>
               </div>
-              <div class="menu-links">
+              <div className="menu-links">
                   <li><a href="#about" onclick="toggleMenu()">About</a></li>
                   <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                   <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
