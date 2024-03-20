@@ -15,7 +15,7 @@ function About() {
           <div className="section__pic-container">
             <img
                 src="./assets/about-pic.jpg"
-                alt = "Profile Picture"
+                alt = "Profile"
                 className="about-pic"
             />
           </div>

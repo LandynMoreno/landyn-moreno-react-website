@@ -15,7 +15,7 @@ function Profile() {
   return (
     <section id="profile">
       <div className="section__pic-container profile-pic-container">
-          <img src="./assets/landyn-image4.jpg" alt="Landyn Moreno profile picture"/>
+          <img src="./assets/landyn-image4.jpg" alt="Landyn Moreno"/>
       </div>
 
       <div className="section__text">

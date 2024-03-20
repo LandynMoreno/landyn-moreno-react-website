@@ -18,7 +18,7 @@ function Projects() {
                     <div className="article-container">
                         <img
                             src="./assets/odds-deviations.png"
-                            alt="Odds Deviations User Interface Image"
+                            alt="Odds Deviations User Interface"
                             className="project-img"
                         />
                     </div>
@@ -44,7 +44,7 @@ function Projects() {
                     <div className="article-container">
                         <img
                             src="./assets/space-invaders.jpg"
-                            alt="Space Invaders Image"
+                            alt="Space Invaders"
                             className="project-img"
                         />
                     </div>
