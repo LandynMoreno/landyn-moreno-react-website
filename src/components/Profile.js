@@ -25,13 +25,13 @@ function Profile() {
         <div className="btn-container">
             <button 
               className="btn btn-color-2"
-              onClick="window.open('./assets/Landyn_Moreno_Resume_2024.pdf')"
+              onClick={() => window.open('./assets/Landyn Moreno Resume, 2024.pdf')}
             >
               Download CV
             </button>
             <button 
               className="btn btn-color-1"
-              onClick="location.href='./#contact'"
+              onClick={() => window.location.href='./#contact'}
             >
               Contact Info
             </button>
@@ -41,15 +41,16 @@ function Profile() {
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             className="icon"
-            onclick="location.href='https://www.linkedin.com/in/landyn-moreno/'">
-          </img>
+            onClick={() => window.location.href='https://www.linkedin.com/in/landyn-moreno/'}
+          />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             className="icon"
-            onclick="location.href='https://github.com/LandynMoreno'">
-          </img>
+            onClick={() => window.location.href='https://github.com/LandynMoreno'}
+          />
         </div>
+
         <div className="visitor-counter">
           <div className="elfsight-app-1030b1a8-ef30-4bcb-acbf-eefe6073c648" data-elfsight-app-lazy></div>
         </div>

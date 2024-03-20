@@ -253,7 +253,7 @@ function Experience() {
       <img 
       src="./assets/arrow.png"
       alt="Arrow icon"
-      className="icon arrow"
+      className="icon experience-arrow"
       onClick={navigateToProjects}
       />
     </section>

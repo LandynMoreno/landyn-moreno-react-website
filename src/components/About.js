@@ -23,7 +23,7 @@ function About() {
             <div className="about-containers">
                 <div className="details-container">
                     <img src="./assets/experience.png" alt="experience icon"
-                    className="icon"
+                    className="non-clickable-icon"
                     />
                     <h3>Work Experience</h3>
                     <div>
@@ -37,7 +37,7 @@ function About() {
                 </div>
                 <div className="details-container">
                     <img src="./assets/grad-cap.png" alt="education icon"
-                    className="icon"
+                    className="non-clickable-icon"
                     />
                     <div className="education-text">
                         <p className="school">The University of Texas, Austin</p>
@@ -57,7 +57,7 @@ function About() {
       <img 
           src="./assets/arrow.png"
           alt="Arrow icon"
-          className="icon arrow"
+          className="icon about-arrow"
           onClick={navigateToExperience}
       />
     </section>
